@@ -1,0 +1,242 @@
+#include <kipr/botball.h>
+
+int main()
+{
+    printf("Hello World\n");
+   // wait_for_light(0);
+    shut_down_in(119);
+     mav(0,0);
+    mav(1,800);
+    msleep(3300);
+    mav(0,1000);
+    mav(1,1000);
+    msleep(5000);
+    
+  
+    
+   
+      while (analog(3) < 2000)
+{
+
+    if (analog(1) < 2900)
+    {
+        motor(0,10);
+        motor(1,10000);
+    }
+     else 
+    {
+         motor(0,10000);
+        motor(1,10);
+    }
+    ao();
+    } 
+    enable_servos(0,1);
+    mav(0,-200);
+    mav(1,-200);
+    msleep(2300);
+    mav(0,200);
+    mav(1,0);
+    msleep(3000);
+    ao();
+    msleep(1000);
+    set_servo_position(0,1900);
+    msleep(1000);
+     ao();
+    msleep(1000);
+    mav(0,100);
+    mav(1,100);
+    msleep(5300);
+    set_servo_position(1,200);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    
+    
+    mav(0,-1000);
+    mav(1,1000);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    set_servo_position(1,1200);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    mav(0,-1000);
+    mav(1,-2000);
+    msleep(5000);
+    mav(0,0);
+    mav(1,1000);
+    msleep(1500);
+	 mav(0,1000);
+    mav(1,1000);
+    msleep(2000);
+      while (analog(3) < 2000)
+{
+
+    if (analog(1) < 2900)
+    {
+        motor(0,10);
+        motor(1,10000);
+    }
+     else 
+    {
+         motor(0,10000);
+        motor(1,10);
+    }
+    ao();
+    } 
+    enable_servos(0,1);
+    mav(0,-200);
+    mav(1,-200);
+    msleep(2300);
+    mav(0,200);
+    mav(1,0);
+    msleep(3000);
+    ao();
+    msleep(1000);
+    set_servo_position(0,1900);
+    msleep(1000);
+     ao();
+    msleep(1000);
+    mav(0,100);
+    mav(1,100);
+    msleep(5300);
+    set_servo_position(1,200);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    
+    
+    mav(0,-1000);
+    mav(1,1000);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    set_servo_position(1,1200);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    mav(0,-1000);
+    mav(1,-2000);
+    msleep(5000);
+    mav(0,0);
+    mav(1,1000);
+    msleep(2000);
+	 mav(0,1000);
+    mav(1,1000);
+    msleep(2000);
+      while (analog(3) < 2000)
+{
+
+    if (analog(1) < 2900)
+    {
+        motor(0,10);
+        motor(1,10000);
+    }
+     else 
+    {
+         motor(0,10000);
+        motor(1,10);
+    }
+    ao();
+    } 
+    enable_servos(0,1);
+    mav(0,-200);
+    mav(1,-200);
+    msleep(2300);
+    mav(0,200);
+    mav(1,0);
+    msleep(3000);
+    ao();
+    msleep(1000);
+    set_servo_position(0,1900);
+    msleep(1000);
+     ao();
+    msleep(1000);
+    mav(0,100);
+    mav(1,100);
+    msleep(5300);
+    set_servo_position(1,200);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    
+    
+    mav(0,-1000);
+    mav(1,1000);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    set_servo_position(1,1200);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    mav(0,-1000);
+    mav(1,-2000);
+    msleep(5000);
+    mav(0,0);
+    mav(1,1000);
+    msleep(2000);
+	 mav(0,1000);
+    mav(1,1000);
+    msleep(2000); while (analog(3) < 2000)
+{
+
+    if (analog(1) < 2900)
+    {
+        motor(0,10);
+        motor(1,10000);
+    }
+     else 
+    {
+         motor(0,10000);
+        motor(1,10);
+    }
+    ao();
+    } 
+    enable_servos(0,1);
+    mav(0,-200);
+    mav(1,-200);
+    msleep(2300);
+    mav(0,200);
+    mav(1,0);
+    msleep(3000);
+    ao();
+    msleep(1000);
+    set_servo_position(0,1900);
+    msleep(1000);
+     ao();
+    msleep(1000);
+    mav(0,100);
+    mav(1,100);
+    msleep(5300);
+    set_servo_position(1,200);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    
+    
+    mav(0,-1000);
+    mav(1,1000);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    set_servo_position(1,1200);
+    msleep(1000);
+    ao();
+    msleep(1000);
+    mav(0,-1000);
+    mav(1,-2000);
+    msleep(5000);
+    mav(0,0);
+    mav(1,1000);
+    msleep(2000);
+	 mav(0,1000);
+    mav(1,1000);
+    msleep(2000);
+    
+   
+   
+    
+     return 0;
+}
